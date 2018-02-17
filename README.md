@@ -4,6 +4,7 @@
 
 [1. Ссылка на wiki-страницу](https://github.com/igorWEBdeveloper/igorkh.github.io/wiki)<br>
 [2. Ссылка на репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io)
+[3. Ссылка на личный кабинет](https://github.com/igorWEBdeveloper)
 
 
 # igorkh.github.io
