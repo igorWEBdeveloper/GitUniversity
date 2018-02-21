@@ -20,7 +20,6 @@
 [2. Ссылка на репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io)<br>
 [3. Ссылка на личный кабинет](https://github.com/igorWEBdeveloper)<br>
 
-# igorkh.github.io <br>
 <h2>Demo site on HTML5 CSS3 </h2><br>
 
 https://igorwebdeveloper.github.io/igorkh.github.io/Democanvas
