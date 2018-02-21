@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.logo{
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+body{
+	min-height: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+nav{
+	margin: auto;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.topnav{
+	background-color: #fff;
+	font-size: 14px;
+	margin-top: 40px;
+}
+.topnav a{
+	color: #000;
+	text-align: center;
+	padding: 14px 30px;
+	font-size: 18px;
+	text-decoration: none;
+	//font-weight: bold;
+}
+.topnav a:hover {
+	border-bottom: 1px solid #1b69e5;
+	//border-radius: 10px;
+}
+h1{	
+	margin-left: 85px;
+	padding: 14px 16px;
+}
+.text{
+	margin-left: 50px;
+	padding: 10px 16px;
+	line-height: 1.5;
+	text-indent: 37px;
+}
+ul li{
+	margin-left: 120px;
+	padding: 10px;
+	//font-weight: bold;
+}
+.name-cube {
+	float: right;
+  position: relative;
+  top: -55px;
+  right: -40px;
+}
+a, .name-cube{
+	text-decoration: none;
+	color: #000;
+}
+.name-cube:hover{
+	border-bottom: 1px solid #000;
+}
+.graficlogo{
+	//box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.footer{
+	background: white;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 25px;
+	position: absolute;
+	border-top: 1px solid #000;
+	margin-top: 35px;
+}
+.logo-footer{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+.logo-down{
+  padding: 5px;
+  width: 700px;
+  height: 180px;
+}
+.social{
+	background-color: black;
+	word-spacing: 15px;
+}
+.social img:hover{
+	background-color: #4286f4;
+	border-radius: 50%;
+}
+ //.text-down{
+ 	margin-left: 50px;
+ 	font-size: 15px;
+ 	margin-top: 25px;
+	//font-weight: bold;
+	text-indent: 37px;
+	line-height: 1.5;
+	padding: 10px 16px;
+}
+.wp-100{
+	margin-top: 15px;
+	padding: 14px 16px;
+	margin-left: 90px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.wrap {
+  margin-top: 65px;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  float: right;
+}
+.cube {
+  margin: auto;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  transform-style: preserve-3d;
+  left: -170px;
+  bottom: -20px;
+}
+
+.cube > div {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #1a81ef;
+  border: solid 1px #eeeeee;
+  color: #ffffff;
+}
+.front {
+  transform: translateZ(100px);
+}
+
+.back {
+  transform: translateZ(-100px) rotateY(180deg);
+}
+
+.right {
+  transform: rotateY(-270deg) translateX(100px);
+  transform-origin: top right;
+}
+
+.left {
+  transform: rotateY(270deg) translateX(-100px);
+  transform-origin: center left;
+}
+
+.top {
+  transform: rotateX(-270deg) translateY(-100px);
+  transform-origin: top center;
+}
+
+.bottom {
+  transform: rotateX(270deg) translateY(100px);
+  transform-origin: bottom center;
+}
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.cube {
+  animation: rotate 20s infinite linear;
+}
+.wrap:hover .front {
+  transform: translateZ(150px);
+}
+.wrap:hover .back {
+  transform: translateZ(-150px) rotateY(180deg);
+}
+.wrap:hover .right {
+  transform: rotateY(-270deg) translateZ(50px) translateX(100px);
+}
+.wrap:hover .left {
+  transform: rotateY(270deg) translateZ(50px) translateX(-100px);
+}
+.wrap:hover .top {
+  transform: rotateX(-270deg) translateZ(50px) translateY(-100px);
+}
+.wrap:hover .bottom {
+  transform: rotateX(270deg) translateZ(50px) translateY(100px);
+}
+.cube > div {
+  transition: transform 0.2s ease-in;
+}
+@media screen and (max-width: 1020px){
+	.graficlogo{
+  width: 100%;
+	}
+}
+
+
+/* Базовые стили формы */
+form{
+ text-align: center;
+ margin:0 auto;
+ max-width:35%;
+ box-sizing:border-box;
+ padding:20px;
+ border-radius:5px; 
+ background: rgba(255,255,255,1);
+ //box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45); 
+}
+/* Стили полей ввода */
+.textbox{
+ height:40px;
+ width:100%;
+ border-radius:5px;
+ border:rgba(0,0,0,.3) 2px solid;
+ box-sizing:border-box;
+ font-family: 'Open Sans', sans-serif;
+ font-size:18px; 
+ padding:10px;
+ margin-bottom:30px; 
+}
+.message:focus,
+.textbox:focus{
+ outline:none;
+ border:rgba(24,149,215,1) 2px solid;
+ color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message{
+ background: rgba(255, 255, 255, 0.4); 
+ width:100%;
+ height: 120px;
+ border:rgba(0,0,0,.3) 2px solid;
+ box-sizing:border-box;
+ font-size:18px;
+ font-family: 'Open Sans', sans-serif;
+ border-radius: 3px; 
+ display:block;
+ padding:10px;
+ margin-bottom:30px;
+ overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+ height:50px;
+ width:100%;
+ border-radius:3px;
+ border:rgba(0,0,0,.3) 0px solid;
+ box-sizing:border-box;
+ padding:10px;
+ background:#4a81e8;
+ color:#FFF;
+ font-family: 'Open Sans', sans-serif; 
+ font-weight:400;
+ font-size: 16pt;
+ transition:background .4s;
+ cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+ background:#67bee0;
+}
+.title{
+ margin:0 auto;
+ max-width: 100%;
+ box-sizing:border-box;
+}
+.title h1{
+	color: rgba(0,0,0,0.9);
+	margin-left: 440px;
+	margin-bottom: -15px;
+  }
+  .maps{
+  	margin:0 auto;
+  	max-width:100%;
+  	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  .title-map{
+  	margin:0 auto;
+  	width:100%;
+  	text-align: center;
+  	margin-bottom: 10px;
+  //	text-shadow: 0 0 0px rgba(0,0,0,0.5);
+  }
