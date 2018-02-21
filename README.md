@@ -21,6 +21,6 @@
 [3. Ссылка на личный кабинет](https://github.com/igorWEBdeveloper)<br>
 
 # igorkh.github.io <br>
-<strong> <h2>Demo site on HTML5 CSS3 <br>
+<h2>Demo site on HTML5 CSS3 </h2><br>
 
 https://igorwebdeveloper.github.io/igorkh.github.io/Democanvas
