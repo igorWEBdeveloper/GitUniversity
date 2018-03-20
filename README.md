@@ -22,4 +22,4 @@
 
 <h2>Demo site on HTML5 CSS3 </h2><br>
 
-https://igorwebdeveloper.github.io/igorkh.github.io/Democanvas
+https://igorwebdeveloper.github.io/igorkh.github.io/Project
