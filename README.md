@@ -23,3 +23,4 @@
 <h2>Demo site</h2><br>
 
 https://igorwebdeveloper.github.io/igorkh.github.io/Project
+https://igorwebdeveloper.github.io/igorkh.github.io/cubek/
