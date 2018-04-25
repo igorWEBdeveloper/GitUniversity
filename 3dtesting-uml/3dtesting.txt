@@ -1,0 +1,37 @@
+@startuml
+boundary t3d as ":Testing3D"
+control f3d as ":Factory3D"
+control c3d as ":Context3D"
+control rotate as ": 3drotate-test.html"
+== Step 1 ==
+loop 1,10,100,1000
+t3d -> f3d: Create
+activate f3d
+f3d --> t3d: Ok
+note right: test timer create
+== Step 2 ==
+t3d -> c3d: Draw
+activate c3d
+c3d --> t3d: Ok
+note right: test timer draw
+== Step 3 ==
+loop var i = 0,01; i<=0,1; i+=0,01 - Разная скорость OR 5 times
+t3d -> rotate: Rotate(mvMatrix,mvMatrix, gd, [1, 1, 1]); gd += Math.PI/1000 + i;
+activate rotate
+rotate --> t3d: Ok
+note right: test timer rotate
+end
+== Step 4 ==
+loop 5 times
+t3d -> c3d: Rand = Random(0.1-min, range-max, 0.1-step); Move(x+Rand;y+Rand;z+Rand);
+c3d --> t3d: Ok
+note right: test timer Move
+end
+== Step 5 ==
+loop 5 times
+t3d -> c3d: Scale(Random(0.1, 0.5))
+c3d --> t3d: Ok
+note right: test timer Scale
+end
+end
+@enduml
