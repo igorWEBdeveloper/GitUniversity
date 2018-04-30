@@ -1,0 +1,24 @@
+@startuml
+boundary test as ":3dfactory-test.html"
+control 3df as ":factory3d"
+== Step 1 ==
+test -> 3df: create 
+activate 3df
+3df --> test: ok 
+== Step 2 ==
+test -> 3df: polyhedron(vertexes:4, edges:6)
+3df -> 3df: objects.push
+3df --> test: ok
+== Step 3 ==
+test -> 3df: polyhedron(vertexes:8, edges:12)
+3df -> 3df: objects.push
+3df --> test: ok
+== Step 4 ==
+loop objects.foreach
+  test -> 3df: triangles(obj)
+  3df -> 3df: obj.triangles.push
+  3df --> test: ok
+
+end
+deactivate 3df
+@enduml
