@@ -1,0 +1,30 @@
+@startuml
+boundary test as ":3dcontext-test.html"
+control ctx as ":context3d"
+== Step 1 ==
+test -> ctx: create 
+activate ctx
+ctx --> test: ok
+== Step 2 ==
+test -> ctx: setColor(r:0.8,g:0.8,b:0.8,a:0.1)
+ctx --> test: ok
+note right: Timer Color
+== Step 3 ==
+test -> ctx: SetBuffers(vertices:6,triangles)
+ctx --> test: ok
+note right: Timer Buffers
+== Step 4 ==
+test -> ctx: setShaders(vsrc,fsrc)
+ctx --> test: ok
+note right: Timer Shaders
+== Step 5 ==
+test -> ctx: DrawScene(x:10,y:10,w:scn.width-20,h:scn.height-20)
+ctx --> test: ok
+note right: Timer Scene
+== Step 6 ==
+loop for (let tt=0; tt<ctx.vertices.length; tt += 3)
+test -> test: newv(tt)
+test --> test: ok
+note right: Timer New vertices
+end
+@enduml
