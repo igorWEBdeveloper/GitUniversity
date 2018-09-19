@@ -49,6 +49,9 @@ body {
   width: 18px;
   height: 18px; }
 
+.menu {
+  display: none; }
+
 .wrapper-main {
   margin-top: 30px; }
 
@@ -138,5 +141,20 @@ body {
     display: none; } }
 
 @media screen and (max-width: 404px) {
-  .topnav:not(:last-child) {
-    display: none; } }
+  .wrapper {
+    position: relative; }
+  .wrapper-logo {
+    float: left; }
+  .topnav a:not(:last-child) {
+    display: none; }
+  .topnav {
+    position: absolute;
+    right: 10px;
+    top: -51px; }
+  .topnav a.menu {
+    display: block;
+    float: left; }
+  .wrapper-two {
+    margin-top: -20px; }
+  .button {
+    margin-bottom: 10px; } }
