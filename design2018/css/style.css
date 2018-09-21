@@ -150,11 +150,47 @@ body {
   .topnav {
     position: absolute;
     right: 10px;
-    top: -51px; }
+    top: -52px; }
   .topnav a.menu {
     display: block;
     float: left; }
   .wrapper-two {
     margin-top: -20px; }
   .button {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  /* Lab_one html css style */ }
+
+.info {
+  margin-bottom: 70px; }
+
+.info__title {
+  font-size: 36px;
+  color: #4d4d4d; }
+
+.info__line {
+  margin-top: 5px;
+  width: 70px;
+  height: 3px;
+  background-color: #4d4d4d; }
+
+.info__text {
+  margin-top: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #4d4d4d;
+  align-text: justify; }
+
+.info ul {
+  line-height: 24px;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-left: 15px;
+  margin-top: 10px; }
+
+.info ul li {
+  margin-bottom: 10px; }
+
+.css-adaptive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
