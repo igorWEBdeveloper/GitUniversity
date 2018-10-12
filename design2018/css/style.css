@@ -71,7 +71,7 @@ body {
   background-color: #4d4d4d; }
 
 .wrapper-main__autor {
-  margin-top: 65px;
+  margin-top: 150px;
   font-weight: 500;
   font-size: 16px;
   color: #4d4d4d; }
@@ -180,6 +180,24 @@ body {
   color: #4d4d4d;
   align-text: justify; }
 
+.info__text span {
+  font-weight: bold;
+  font-size: 20px; }
+
+.info__ol {
+  line-height: 24px;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-left: 15px;
+  margin-top: 10px; }
+
+.info__ol a {
+  text-decoration: none;
+  color: blue; }
+
+.info__ol a:hover {
+  color: #002966; }
+
 .info ul {
   line-height: 24px;
   font-weight: 500;
@@ -220,3 +238,12 @@ body {
 .shadow {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); }
+
+.first-wrapper {
+  margin-bottom: 80px; }
+
+.vertical-line {
+  margin-left: 80px;
+  width: 3px;
+  height: 270px;
+  background-color: #4d4d4d; }
