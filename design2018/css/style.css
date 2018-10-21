@@ -4,13 +4,15 @@
 
 body {
   font-family: 'Asap', sens-serif;
-  background-color: #f2f2f2; }
+  background-color: #f2f2f2; 
+}
 
 .wrapper {
   margin-top: 15px;
   margin-bottom: 70px; }
 
 .wrapper-logo {
+  margin-top: -25px;
   color: #4d4d4d;
   font-size: 25px;
   font-weight: 700;
@@ -185,6 +187,7 @@ body {
   font-size: 20px; }
 
 .info__ol {
+  font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   color: #4d4d4d;
@@ -247,3 +250,44 @@ body {
   width: 3px;
   height: 270px;
   background-color: #4d4d4d; }
+
+.footer{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.wrapper-info-three{
+
+}
+
+.three__line{
+  margin: 0 auto;
+  width: 70px;
+  height: 2px;
+  background-color: #4d4d4d;
+
+}
+.three__title{
+  text-align: center;
+}
+.three__text{
+   color: #4d4d4d;
+   margin-top: 70px;
+   font-size: 18px;
+}
+.box{
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+}
+.three__ol{
+  margin-top: 30px;
+  line-height: 24px;
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+}
+.three__ol a{
+  text-decoration: none;
+}
+.three__ol a:hover{
+  color: #002966;
+}
