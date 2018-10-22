@@ -17,4 +17,4 @@
 [2. Ссылка на репозиторий](https://github.com/igorWEBdeveloper/igorkh.github.io)<br>
 [3. Ссылка на личный кабинет](https://github.com/igorWEBdeveloper)<br>
 
-[<h2>PROJECT 2018.</h2>](https://igorwebdeveloper.github.io/igorkh.github.io/design2018)
+[<h2>PROJECT 2018.</h2>](https://igorwebdeveloper.github.io/igorkh.github.io/project_2018)
