@@ -3,8 +3,9 @@
   padding: 0; }
 
 body {
-  font-family: 'Asap', sens-serif;
+  font-family: 'Roboto', sens-serif;
   background-color: #f2f2f2; 
+  font-weight: 300;
 }
 
 .wrapper {
@@ -61,9 +62,10 @@ body {
   margin-top: 30px; }
 
 .wrapper-main__title {
-  font-size: 40px;
-  color: #4d4d4d; }
-
+  font-size: 36px;
+  color: #4d4d4d;
+  font-weight: 300;
+   }
 .wrapper-main__text {
   margin-top: 15px;
   line-height: 24px;
@@ -71,13 +73,14 @@ body {
   color: #4d4d4d; }
 
 .wrapper-main__line {
+  margin-top: 5px;
   width: 70px;
-  height: 3px;
+  height: 2px;
   background-color: #4d4d4d; }
 
 .wrapper-main__autor {
   margin-top: 150px;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   color: #4d4d4d; }
 
@@ -293,4 +296,12 @@ body {
 }
 .three__ol a:hover{
   color: #002966;
+}
+.wrapper-three .text{
+  color: #DCDCDC;
+}
+h2{
+ font-size: 32px;
+ margin: 10px 0 20px 0;
+ font-weight: 300;
 }
