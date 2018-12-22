@@ -79,9 +79,9 @@ body {
   background-color: #4d4d4d; }
 
 .wrapper-main__autor {
-  margin-top: 150px;
-  font-weight: 300;
-  font-size: 16px;
+  padding: 50px 0 20px 0;
+  font-weight: 500;
+  font-size: 14px;
   color: #4d4d4d; }
 
 .wrapper-main__img {
@@ -302,6 +302,31 @@ body {
 }
 h2{
  font-size: 32px;
- margin: 10px 0 20px 0;
- font-weight: 300;
+ margin: 30px 0;
+ font-weight: 500;
+}
+
+.wrapper-four .text{
+  padding: 20px 0 30px 0;
+  text-align: center;
+}
+.wrapper-five h2{
+  text-align: center; 
+  color: #78abf3; 
+}
+h3{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  color: #78abf3; 
+  padding: 10px 0 30px 0;
+}
+.wrapper-six h2{
+  text-align: center; 
+  color: #78abf3; 
+  padding-bottom: 15px;
+}
+.wrapper-six p{
+    font-weight: 500;
+    padding: 10px;
 }
