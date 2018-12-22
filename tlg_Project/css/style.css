@@ -89,7 +89,8 @@ body {
 
 .wrapper-main__icons {
   margin-top: 20px;
-  cursor: pointer; }
+  cursor: pointer;
+  padding: 30px 0 30px 0; }
 
 .wrapper-main__icons img {
   margin-right: 15px;
@@ -146,7 +147,17 @@ body {
 
 @media screen and (max-width: 576px) {
   .wrapper-main__line {
-    display: none; } }
+    display: none; 
+} 
+.text-center{
+  text-align: center;
+  padding: 15px;
+}
+.wrapper-main__icons{
+  margin-left: 10px;
+}
+
+}
 
 @media screen and (max-width: 404px) {
   .wrapper {
@@ -329,4 +340,8 @@ h3{
 .wrapper-six p{
     font-weight: 500;
     padding: 10px;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
